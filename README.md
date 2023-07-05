@@ -1,63 +1,21 @@
-# Nuxt 3 Minimal Starter
+<a href="https://acs.it/">
+    <img src="https://www.acs.it/_nuxt/f34791bada6550c052c16990ec1a75fe.svg" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+</a>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# ACS Challenge 2023
+⭐ Star us on GitHub — it motivates us a lot!
 
-## Setup
+The [ACS Data Systems S.p.A.](https://www.acs.it/it/) requested this dashboard that reports automotive emissions data over-time for their company.
 
-Make sure to install the dependencies:
+<img src="https://ci4.googleusercontent.com/proxy/UO5NpXOu5IClYVq2K1y7siH0mzl_LwAm3vUQKFRbudZWvLtAtEVOSQrMhnDKpKKKL6b0jD1ufFJ4PB4B70xDHPGmtEPTZPiHLkET67jqkiimuUhhNRY-Ua_phiUyN8qL-T3_siw=s0-d-e1-ft#https://www.datocms-assets.com/31871/1644413485-banner_email_myacs_new_700x157.png">
 
-```bash
-# npm
-npm install
+## Table of content
+- [API](#api)
+- [Team](#team)
 
-# pnpm
-pnpm install
+## API
+We used [dkv-mobility](https://api-portal.dkv-mobility.com/)'s api to determine and weight the data.
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Team
+- [SysWhiteDev](https://github.com/syswhitedev) | Frontend/Backend
+- [resonanceee](https://github.com/resonanceee) | Frontend
