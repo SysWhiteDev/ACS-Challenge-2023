@@ -1,0 +1,17 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-2);
+  font-size: clamp(40px, 4vw, 50px);
+  animation: loading 2s infinite ease-out;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

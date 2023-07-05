@@ -1,0 +1,80 @@
+.navbar {
+  background-color: var(--color-4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+}
+
+.navbar > .logo {
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.links {
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* link */
+.link {
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: clamp(15px, 10vh, 17px);
+  text-decoration: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  transition: background-color 0.2s;
+  background-color: var(--color-3);
+}
+
+.link > p {
+  background-color: inherit;
+}
+
+.link:hover {
+  background-color: var(--color-2);
+}
+.link.router-link-active {
+  background-color: var(--color-2);
+}
+/* car link */
+
+.emissions.router-link-active > i {
+  animation: car 1s;
+}
+
+@keyframes car {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  70% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* content */
+.content {
+  margin-left: 300px;
+  overflow-y: auto;
+  height: 100vh;
+  padding: 20px;
+}

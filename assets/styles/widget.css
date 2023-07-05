@@ -1,0 +1,36 @@
+.widget {
+  min-height: 300px;
+  min-width: 400px;
+  background-color: var(--color-6);
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
+.widget > *,
+.widget > * > *,
+.widget > * > * > * {
+  color: var(--color-1);
+}
+
+/* wtitle */
+.wtitle {
+  font-size: clamp(18px, 3vw, 20px);
+  padding-bottom: 7px;
+  height: 35px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+/* wcontent */
+.wcontent {
+  height: calc(100% - 35px);
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.wcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("~/assets/styles/widget.css");
+
+:root {
+  --main: 210;
+  --color-bg: hsl(var(--main), 60%, 10%);
+  --color-1: hsl(var(--main), 26%, 9%);
+  --color-2: hsl(var(--main), 45%, 17%);
+  --color-3: hsl(var(--main), 46%, 30%);
+  --color-4: hsl(var(--main), 45%, 46%);
+  --color-5: hsl(var(--main), 80%, 65%);
+  --color-6: hsl(var(--main), 100%, 93%);
+  --invert: 1;
+}
+
+body {
+  background-color: var(--color-3);
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color-6);
+}
+
+/* title */
+.title {
+  font-size: clamp(25px, 4vw, 30px);
+  margin-bottom: 20px;
+}
+
+/* row */
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.row > * {
+  width: 100%;
+}
+.row > *:not(:last-child) {
+  margin-right: 35px;
+}
