@@ -3,12 +3,28 @@
     <div class="wtitle">
       <p>Trend annuale 📈</p>
       <div class="typeButtons">
-        <div @click="changeType('line')" class="typeButton" :class="{active: chartType == 'line'}">
+        <div
+          @click="changeType('line')"
+          class="typeButton"
+          :class="{ active: chartType == 'line' }"
+        >
           <i class="fa-solid fa-chart-line"></i>
           Linee
         </div>
-        <p style="margin-right: 5px; margin-left: 5px; color: rgba(0, 0, 0, 0.05);">|</p>
-        <div @click="changeType('bar')" class="typeButton" :class="{active: chartType == 'bar'}">
+        <p
+          style="
+            margin-right: 5px;
+            margin-left: 5px;
+            color: rgba(0, 0, 0, 0.05);
+          "
+        >
+          |
+        </p>
+        <div
+          @click="changeType('bar')"
+          class="typeButton"
+          :class="{ active: chartType == 'bar' }"
+        >
           <i class="fa-solid fa-chart-simple"></i>
           Barre
         </div>
@@ -88,7 +104,10 @@ const chartData = ref({
     {
       label: "Emissioni totali",
       backgroundColor: "#0066cc",
-      data: [135.72, 212.48, 189.26, 127.91, 154.33, 231.14, 205.87, 141.69, 119.55, 172.97, 218.06, 183.83],
+      data: [
+        135.72, 212.48, 189.26, 127.91, 154.33, 231.14, 205.87, 141.69, 119.55,
+        172.97, 218.06, 183.83,
+      ],
       pointRadius: 8,
     },
   ],
@@ -172,19 +191,19 @@ const chartOptions = ref({
 
 .typeButton {
   cursor: pointer;
-  color: var(--color-4);
+  color: var(--color-1);
   transition: all 0.1s;
 }
 .typeButton > * {
-  color: var(--color-4);
+  color: var(--color-1);
   transition: all 0.1s;
 }
 
 .typeButton.active {
-  color: var(--color-1)
+  color: var(--color-4);
 }
 
 .typeButton.active > * {
-  color: var(--color-1)
+  color: var(--color-4);
 }
 </style>

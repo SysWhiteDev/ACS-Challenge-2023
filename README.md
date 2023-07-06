@@ -4,6 +4,8 @@
 
 # ACS Challenge 2023
 
+[![checks](https://github.com/SysWhiteDev/ACS-Challenge-2023/actions/workflows/tests.yml/badge.svg)](https://github.com/SysWhiteDev/ACS-Challenge-2023/actions/workflows/tests.yml)
+
 ⭐ Star us on GitHub — it motivates us a lot!
 
 The [ACS Data Systems S.p.A.](https://www.acs.it/it/) requested this dashboard that reports automotive emissions data over-time for their company.
