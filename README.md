@@ -18,4 +18,4 @@ We used [dkv-mobility](https://api-portal.dkv-mobility.com/)'s api to determine 
 
 ## Team
 - [SysWhiteDev](https://github.com/syswhitedev) | Frontend/Backend
-- [resonanceee](https://github.com/resonanceee) | Frontend
+- [resonanceee](https://github.com/resonanceee) | Frontend/Backend
