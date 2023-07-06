@@ -2,9 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/styles/main.css"],
-  components: [{ path: "~/components/widgets", extensions: ["vue"] }],
+  components: [
+    { path: "~/components/widgets", extensions: ["vue"] },
+  ],
   app: {
     head: {
+      title: "ACS Dashboard",
       link: [
         {
           rel: "stylesheet",

@@ -4,9 +4,10 @@
     <div class="row row2">
       <totalWidget></totalWidget> <tipsWidget></tipsWidget>
     </div>
-    <div class="row"><exampleWidget></exampleWidget></div>
+    <div class="row"><annualTrendWidget></annualTrendWidget></div>
     <div class="row row2">
-      <exampleWidget></exampleWidget> <exampleWidget></exampleWidget>
+      <leaderboardWidget></leaderboardWidget>
+      <leaderboardWidget type="mensile"></leaderboardWidget>
     </div>
   </div>
   <!-- mobile layout -->
@@ -14,9 +15,9 @@
     <p class="title">Emissioni auto aziendali 🚗</p>
     <totalWidget />
     <tipsWidget />
-    <exampleWidget />
-    <exampleWidget />
-    <exampleWidget />
+    <annualTrendWidget />
+    <leaderboardWidget />
+    <leaderboardWidget type="mensile" />
   </div>
 </template>
 
