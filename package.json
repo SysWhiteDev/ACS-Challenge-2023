@@ -4,6 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "test": "jest",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -12,5 +13,10 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
     "nuxt": "^3.6.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "jest": "^29.6.1",
+    "jets": "^0.15.0"
   }
 }
