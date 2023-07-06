@@ -1,5 +1,5 @@
 <a href="https://acs.it/">
-    <img src="https://www.acs.it/_nuxt/f34791bada6550c052c16990ec1a75fe.svg" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+    <img src="./assets/icons/coloredLogo.png" alt="ACS Data Systems S.p.A. logo" title="ACS Data Systems S.p.A." align="right" height="60" />
 </a>
 
 # ACS Challenge 2023

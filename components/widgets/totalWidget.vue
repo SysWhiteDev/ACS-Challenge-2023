@@ -2,7 +2,7 @@
     <div class="widget">
         <!-- <p class="wtitle">Totale ✈️</p> -->
         <div class="wcontent wcenter">
-            <p>Avete emesso in totale <u>20kg di CO2</u>, per rimediare bisogna piantare circa</p>
+            <p style="text-align: center;">Avete emesso in totale <u>20kg di CO2</u>, per rimediare bisogna piantare circa</p>
             <p class="trees">20 <u style="color: rgb(31, 171, 57);">alberi</u></p>
         </div>
     </div>
@@ -15,7 +15,8 @@
     height: 100%;
 }
 .trees {
-    font-size: 60px;
+    font-size: clamp(50px, 4vw, 60px);
+    text-align: center;
 }
 
 .divider {
