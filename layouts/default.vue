@@ -7,9 +7,13 @@
           <i class="fa-solid fa-car-side"></i>
           <p v-if="!isMobile">Emissioni</p>
         </NuxtLink>
-        <NuxtLink to="/two" class="link emissions">
-          <i class="fa-solid fa-car-side"></i>
-          <p v-if="!isMobile">Emissioni</p>
+        <NuxtLink to="/two" class="link">
+          <i class="fa-solid fa-ghost"></i>
+          <p v-if="!isMobile">Frontend by SysWhite</p>
+        </NuxtLink>
+        <NuxtLink to="/two" class="link">
+          <i class="fa-solid fa-ghost"></i>
+          <p v-if="!isMobile">Backend by Resonance</p>
         </NuxtLink>
       </div>
     </div>

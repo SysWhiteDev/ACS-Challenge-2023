@@ -96,6 +96,10 @@
 
 /* mobile adaptation */
 @media screen and (max-aspect-ratio: 4/3) {
+  .link {
+    justify-content: center;
+    align-items: center;
+  }
   .navbar {
     width: 80px;
   }
