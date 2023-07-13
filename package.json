@@ -12,6 +12,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
+    "@types/node-fetch": "^2.6.4",
     "nuxt": "^3.6.1"
   },
   "dependencies": {
