@@ -1,6 +1,6 @@
 <template>
   <div class="widget">
-    <p class="wtitle">Suggerimenti per ridurre l'impatto ambientale 💡</p>
+    <p class="ttitle">Suggerimenti per ridurre l'impatto ambientale 💡</p>
     <div class="wcontent" :class="{ wcenter: loading }">
       <div v-if="loading">
         <i class="fa-solid fa-circle-notch loading"></i>

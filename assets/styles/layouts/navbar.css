@@ -15,6 +15,7 @@
 .navbar > .logo {
   padding: 30px;
   padding-bottom: 0;
+  width: 95%;
 }
 
 .logo.mobile {
