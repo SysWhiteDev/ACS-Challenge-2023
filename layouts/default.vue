@@ -8,13 +8,13 @@
           <p v-if="!isMobile">Emissioni</p>
         </NuxtLink>
         <NuxtLink to="/two" class="link">
-          <i class="fa-solid fa-ghost"></i>
-          <p v-if="!isMobile">Frontend by SysWhite</p>
+          <i class="fa-solid fa-hammer"></i>
+          <p v-if="!isMobile">Placeholder</p>
         </NuxtLink>
-        <NuxtLink to="/two" class="link">
+        <a href="https://github.com/SysWhiteDev/ACS-Challenge-2023" class="link">
           <i class="fa-solid fa-ghost"></i>
-          <p v-if="!isMobile">Backend by Resonance</p>
-        </NuxtLink>
+          <p v-if="!isMobile">Developed by Sys and Res</p>
+        </a>
       </div>
     </div>
     <div class="content">
