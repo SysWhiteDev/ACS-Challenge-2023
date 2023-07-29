@@ -1,25 +1,25 @@
 <template>
   <div class="widget">
-    <p class="wtitle">Classifica {{ type }} 🏆</p>
+    <p class="wtitle">{{ type }} ranking 🏆</p>
     <div class="wcontent">
       <div class="person">
         <div class="left">
           <p class="rank">#1</p>
-          <p class="name">SysWhite</p>
-          <p class="plate">AA000AA</p>
+          <!-- <p class="name">SysWhite</p> -->
+          <p class="name">AA000AA</p>
         </div>
         <div class="right">
-          <p class="value">12kg di CO2</p>
+          <p class="value">12kg of CO2</p>
         </div>
       </div>
       <div class="person">
         <div class="left">
           <p class="rank">#2</p>
-          <p class="name">resonanceee</p>
-          <p class="plate">AA001AA</p>
+          <!-- <p class="name">resonanceee</p> -->
+          <p class="name">AA001AA</p>
         </div>
         <div class="right">
-          <p class="value">13kg di CO2</p>
+          <p class="value">13kg of CO2</p>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ export default {
   props: {
     type: {
       type: String,
-      default: "annuale",
+      default: "annual",
     },
   },
 };
@@ -76,7 +76,6 @@ export default {
 /* rank formatting */
 .rank {
   font-size: 20px;
-  font-style: italic;
   font-weight: bold;
   margin-right: 15px;
 }

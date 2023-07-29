@@ -1,13 +1,13 @@
 <template>
   <div class="widget">
-    <!-- <p class="wtitle">Totale ✈️</p> -->
+    <!-- <p class="wtitle">Total ✈️</p> -->
     <div class="wcontent wcenter">
       <p style="text-align: center">
-        Avete emesso in totale <u>{{ monthValue }}kg di CO2</u> questo mese, per
-        rimediare bisogna piantare circa
+        You have emitted a total of <u>{{ monthValue }}kg of CO2</u> this month,
+        to compensate you need to plant approximately
       </p>
       <p class="trees">
-        {{ trees.toFixed(2) }} <u style="color: rgb(31, 171, 57)">alberi</u>
+        {{ trees.toFixed(2) }} <u style="color: rgb(31, 171, 57)">trees</u>
       </p>
       <div class="treeIcons">
         <div v-for="index in Math.ceil(trees)" :key="index">
@@ -55,10 +55,10 @@ export default {
 
 /* tree icons */
 .treeIcons {
-    display: flex;
-    margin-top: 25px;
+  display: flex;
+  margin-top: 25px;
 }
 .treeIcons > * {
-    font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 </style>

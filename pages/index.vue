@@ -1,23 +1,23 @@
 <template>
   <div v-if="!isMobile">
-    <p class="title">Emissioni auto aziendali 🚗</p>
+    <p class="title">Company Car Emissions 🚗</p>
     <div class="row row2">
       <totalWidget></totalWidget> <tipsWidget></tipsWidget>
     </div>
     <div class="row"><annualTrendWidget></annualTrendWidget></div>
     <div class="row row2">
       <leaderboardWidget></leaderboardWidget>
-      <leaderboardWidget type="mensile"></leaderboardWidget>
+      <leaderboardWidget type="monthly"></leaderboardWidget>
     </div>
   </div>
   <!-- mobile layout -->
   <div v-else>
-    <p class="title">Emissioni auto aziendali 🚗</p>
+    <p class="title">Company Car Emissions 🚗</p>
     <totalWidget />
     <tipsWidget />
     <annualTrendWidget />
     <leaderboardWidget />
-    <leaderboardWidget type="mensile" />
+    <leaderboardWidget type="monthly" />
   </div>
 </template>
 

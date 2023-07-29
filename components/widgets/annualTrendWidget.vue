@@ -1,7 +1,7 @@
 <template>
   <div class="widget">
     <div class="wtitle">
-      <p>Trend annuale 📈</p>
+      <p>Annual trend 📈</p>
       <div class="typeButtons">
         <div
           @click="changeType('line')"
@@ -9,7 +9,7 @@
           :class="{ active: chartType == 'line' }"
         >
           <i class="fa-solid fa-chart-line"></i>
-          Linee
+          Line
         </div>
         <p
           style="
@@ -26,7 +26,7 @@
           :class="{ active: chartType == 'bar' }"
         >
           <i class="fa-solid fa-chart-simple"></i>
-          Barre
+          Bar
         </div>
       </div>
     </div>
@@ -87,22 +87,22 @@ ChartJS.register(
 
 const chartData = ref({
   labels: [
-    "Gennaio",
-    "Febbraio",
-    "Marzo",
-    "Aprile",
-    "Maggio",
-    "Giugno",
-    "Luglio",
-    "Agosto",
-    "Settembre",
-    "Ottobre",
-    "Novembre",
-    "Dicembre",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
   ],
   datasets: [
     {
-      label: "Emissioni totali",
+      label: "Total Emissions",
       backgroundColor: "#0066cc",
       data: [
         135.72, 212.48, 189.26, 127.91, 154.33, 231.14, 205.87, 141.69, 119.55,
