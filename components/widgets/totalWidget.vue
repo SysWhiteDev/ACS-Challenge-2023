@@ -3,8 +3,8 @@
     <!-- <p class="wtitle">Total ✈️</p> -->
     <div class="wcontent wcenter">
       <p style="text-align: center">
-        You have emitted a total of <u>{{ monthValue }}kg of CO2</u> this month,
-        to compensate you need to plant approximately
+        The company cars emitted a total of <u>{{ monthValue }}kg of CO2</u> this month,
+        to compensate for those emissions you would need to plant approximately
       </p>
       <p class="trees">
         {{ trees.toFixed(2) }} <u style="color: rgb(31, 171, 57)">trees</u>
