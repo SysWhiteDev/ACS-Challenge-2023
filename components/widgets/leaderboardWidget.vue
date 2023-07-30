@@ -5,21 +5,19 @@
       <div class="person">
         <div class="left">
           <p class="rank">#1</p>
-          <!-- <p class="name">SysWhite</p> -->
           <p class="name">AA000AA</p>
         </div>
         <div class="right">
-          <p class="value">12kg of CO2</p>
+          <p class="value">350g of CO2 / KM</p>
         </div>
       </div>
       <div class="person">
         <div class="left">
-          <p class="rank">#2</p>
-          <!-- <p class="name">resonanceee</p> -->
+          <p class="rank">#2</p>>
           <p class="name">AA001AA</p>
         </div>
         <div class="right">
-          <p class="value">13kg of CO2</p>
+          <p class="value">400g of CO2 / KM</p>
         </div>
       </div>
     </div>
