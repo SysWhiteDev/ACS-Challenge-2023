@@ -9,33 +9,28 @@
 
 <script>
 
-let tip = ['Guida a una velocità costante ed evita frenate brusche.', 'Fahre mit konstanter Geschwindigkeit und vermeide abruptes Bremsen.', 'Spegni il motore quando rimani fermo per più di un minuto.', 'Schalte den Motor aus, wenn du länger als eine Minute im Leerlauf stehst.', 'Controlla regolarmente la pressione degli pneumatici.', 'Überprüfe regelmäßig den Reifendruck.', 'Pianifica gli spostamenti in modo efficiente per ridurre il chilometraggio.', 'Plane deine Fahrten effizient, um die Kilometerleistung zu minimieren.', 'Evita gli ingorghi nelle ore di punta, se possibile.', 'Vermeide den Berufsverkehr, wenn möglich.', 'Considera il carpooling o il ridesharing.', 'Erwäge Fahrgemeinschaften oder Mitfahrgelegenheiten.']
-
-async function loadJSON (url) {
-  const res = await fetch(url);
-  return await res.json()
-}
-loadJSON('~/tips.json').then(data => {let tips = data})
-
 export default {
-  data() {
-    return {
-      cyclingText: 'Guida a una velocità costante ed evita frenate brusche.'
-    };
-  },
-  mounted() {
-    setInterval(() => {
-      this.cycleText();
-    }, 600);
+  data: () => ({
+    tips: [],
+    cyclingText: 'Guida a una velocità costante ed evita frenate brusche.'
+  }),
+  async mounted() {
+    this.tips = await this.loadJSON('/tips.json');
+    setInterval(() => {this.cycleText(); }, 600)
   },
   methods: {
     cycleText() {
-      const texts = tips;
-      const currentIndex = texts.indexOf(this.cyclingText);
-      this.cyclingText = texts[(currentIndex + 1) % texts.length];
+      const currentIndex = this.tips.indexOf(this.cyclingText);
+      this.cyclingText = this.tips[(currentIndex + 1) % this.tips.length];
+    },
+    async loadJSON(url) {
+      const res = await fetch(url);
+      return await res.json()
     }
   }
-};
+}
+
+
 </script>
 
 <style scoped>
